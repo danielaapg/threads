@@ -11,7 +11,7 @@ public class Cavalo implements Runnable {
 	public void run() {
 		try {
 			for (int i = 1; i < 11; i++) {
-				Thread.sleep((int) (Math.random() * 5000));
+				Thread.sleep((int) (Math.random() * 500));
 				System.out.println(nomeCavalo + " " + i * 100 / 10 + "% percorridos...");
 			}
 			System.out.println(nomeCavalo + " cruza linha de chegada!");
