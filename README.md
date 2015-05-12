@@ -1,9 +1,10 @@
 ##Estados de uma Thread
-=======
 
-###Nova: quando a thread é instanciada, está disponível para ser executada.
+###Nova: 
+Quando a thread é instanciada, está disponível para ser executada.
 
-###Executável: quando a thread é ativada pelo método start(). Pode entrar neste estado por:
+###Executável:
+Quando a thread é ativada pelo método start(). Pode entrar neste estado por:
 * start(): thread inicializada através do start().
 * retorno do sleep: o tempo de bloqueio por sleep terminou.
 * resume(): desbloqueio do suspend() para continuação do processo – deprecated.
