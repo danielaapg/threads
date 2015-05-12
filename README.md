@@ -11,7 +11,7 @@ Quando a thread é ativada pelo método start(). Pode entrar neste estado por:
 * notify/notifyAll(): desbloqueio do wait() para continuação do processo.
 * retorno do I/O: o processo de IO foi finalizado.
 
-###Bloqueada: 
+###Bloqueada
 Quando a thread é desativada. Pode entrar neste estado por:
 * sleep(): bloqueada por tempo determinado.
 * suspend(): bloqueada até que seja reativada pelo resume() – deprecated.
