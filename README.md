@@ -18,7 +18,7 @@ Quando a thread é desativada. Pode entrar neste estado por:
 * wait(): bloqueada até que receba uma notificação (notify() / notifyAll()).
 * bloqueio por I/O: algum processo de IO está sendo aguardado para continuar o processo.
 
-###Encerrada: 
+###Encerrada
 Quando a thread termina sua execução (final do método run()) o u ométodo stop() é acionado.
 
 
