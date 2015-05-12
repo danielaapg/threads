@@ -29,30 +29,30 @@ Deve conter o código que se deseja executar, quando a thread estiver ativa.
 ###start() 
 Inicia a thread, ou seja, efetiva a chamada do método run().
 ###stop() 
-Encerra a thread;
+Encerra a thread.
 ###static sleep(long tempo) 
 Deixa thread corrente inativa por no mínimo tempo milisegundos e promove outra thread.
 ###static yield() 
-Deixa a thread em execução temporariamente inativa e, quando possível, promove outra thread de mesma prioridade ou maior;
+Deixa a thread em execução temporariamente inativa e, quando possível, promove outra thread de mesma prioridade ou maior.
 ###suspend() 
-Coloca a thread no final da fila de sua prioridade e a deixa inativa (método depreciado);
+Coloca a thread no final da fila de sua prioridade e a deixa inativa (método depreciado).
 ###resume() 
-Habilita novamente a execução da thread (método depreciado);
+Habilita novamente a execução da thread (método depreciado).
 ###wait() 
-Interrompe a thread corrente e coloca a mesma na fila de espera (do objeto compartilhado) e aguarda que a mesma seja notificada;
+Interrompe a thread corrente e coloca a mesma na fila de espera (do objeto compartilhado) e aguarda que a mesma seja notificada.
 ###notify() 
-Notifica a próxima thread, aguardando na fila
+Notifica a próxima thread, aguardando na fila.
 ###notifyAll() 
 Notifica todas as threads.
 ###join()
-Aguarda outra thread para encerrar;
+Aguarda outra thread para encerrar.
 ###interrupt()
-Envia o pedido de interrupção de execução de uma thread;
+Envia o pedido de interrupção de execução de uma thread.
 ###static interrupted()
-Verifica se a thread atual está interrompida;
+Verifica se a thread atual está interrompida.
 ###isAlive()
-Retorna true caso uma thread estiver no estado executável ou bloqueado, nos demais retorna false;
+Retorna true caso uma thread estiver no estado executável ou bloqueado, nos demais retorna false.
 ###setPriority(int prioridade)
 Define a prioridade de execução de uma thread (1 a 10).
 ###getPriority()
-Verifica a prioridade de execução de uma thread;
+Verifica a prioridade de execução de uma thread.
