@@ -1,4 +1,5 @@
 ##Estados de uma Thread
+=======
 
 ###Nova: quando a thread é instanciada, está disponível para ser executada.
 
