@@ -22,7 +22,7 @@ public class Aeroporto extends Thread {
 
 	private synchronized void alterarEstadoPista() {
 		disponivel = !disponivel;
-		System.out.println(nome + " Disponibilidade da Pista:" + disponível);
+		System.out.println(nome + " Disponibilidade da Pista:" + disponivel);
 		notifyAll();
 	}
 
